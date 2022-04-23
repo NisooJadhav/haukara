@@ -1,0 +1,259 @@
+#pempek{
+margin-top: 7%;
+width:500px;
+box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.319);
+}
+
+#pempek:hover{
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.49);
+    color: #fff;
+    transform: rotate(0.5deg);
+    
+}
+
+#title{
+    background-color: #FFBF00;
+}
+
+#title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    line-height: 1.25;
+    padding-left: 0px;
+    padding: 2%;
+    padding-left: 12%;
+    color:#fff;
+    /* text-shadow: 2px 2px #000000a3; */
+    /* padding-left: 10px; */
+}
+
+nav, p, button{
+    font-family: 'Poppins';
+}
+
+#download{
+    margin-left: 12%;
+    color:#2f2f2f;
+    
+}
+
+nav{
+    transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding: 5%;
+}
+
+.container-fluid{
+    padding: 2% 12%;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    padding-left: 12%;
+}
+
+#haukara-nav
+{
+    font-size: 40px;
+    padding-left: 9%;
+}
+
+.nav-link:hover{
+color: #fff;
+}
+
+navbarToggler1{
+    padding-right: 100px;
+}
+
+.wrap{
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+
+button:hover{
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.381);
+        color: #fff;
+}
+
+button{
+    border-radius: 50px;
+
+}
+
+svg{
+    width: 30px;  
+}
+
+.feature-box svg{
+    fill:#ffb700 ;
+    width: 40px;
+    margin-bottom: 1rem;   
+}
+.icon2 svg{
+    margin-bottom: 24px;
+}
+
+.feature-box svg:hover {
+    fill:darkorange;
+    width: 7%;
+}
+  
+#features{
+    padding:  7% 15%;
+}
+
+#features h3{
+    font-family: "Montserrat", sans-serif;
+    font-stretch: expanded;
+    font-size: large;
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+.feature-box p{
+    color: #8f8f8f
+}
+
+.icon{
+    color:#FFBF00;
+}
+
+/* testimonial */
+
+#testimonials{
+
+    text-align: center;
+    background-color: #FFBF00;
+}
+
+#testimonials h2
+{
+    color: white;
+    font-family: "Montserrat";
+}
+
+#testimonials img{
+    width: 35%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    background-color:#FFBF00;
+    text-align: center;
+    padding-bottom:3%;
+    font-family: "Poppins";
+    color:white;
+}
+
+#press img{
+    width: 15%;
+    margin: 2px 2px;
+}
+
+.carousel-item{
+    padding: 7% 7%;
+}
+
+/*cards*/
+
+.card{
+    text-align: center;
+    margin:2%;
+    line-height: 1;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.265);
+}
+
+.card-footer :hover{
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.49);
+}
+
+.card h3{
+    padding-top: 1%;
+    padding-bottom: 0%;
+    font-family: "Montserrat";
+    font-size: larger;
+}
+
+.card h2{
+padding: 3%;
+}
+
+#affordable{
+    padding-bottom: 1%;
+}
+
+#below_pricing{
+    color: #8f8f8f;
+    font-size: 20px;
+    padding-top:1%;
+    padding-bottom:3%;
+}
+
+#pricing{
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pricing-column{
+    padding: 2% 5%;
+}
+
+#affordable{
+    font-family: 'Montserrat';
+}
+
+#cta{
+    text-align: center;
+    padding:5%;
+    background-color: #FFBF00;
+}
+
+#bottom-h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    padding-bottom: 5%;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footer-icon{
+    margin:30px 10px; 
+    width: 25px;
+}
+
+#footer{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Poppins";
+    font-size:18px;
+    padding: 5% 15%;
+    color: #8f8f8f;
+}
+
+/*style for mobile devices*/
+@media (max-width:1028px){
+        #title{
+            text-align: center;
+        }
+
+        #title p{
+            font-size: 225%;
+        }
+
+        #download{
+            text-align: center;
+            margin-left: 33%;
+        }
+        
+        #haukara-nav{
+            font-size: larger;
+        }
+}
